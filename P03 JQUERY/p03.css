@@ -1,0 +1,44 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background: rgb(226, 189, 189);}
+	
+;
+
+tr{
+	background-color: rgb(97, 210, 238);
+}
+th{
+	background: rgb(26, 14, 139);
+	padding: 30px;
+	text-align: center;
+	background-color: rgb(203, 240, 38);
+}
+
+td{
+	text-align: center;
+	color: rgb(168, 164, 164);
+	padding-top: 10px;
+	background-color: rgb(224, 60, 19);
+}
+
+.tabels{
+	height: 35px;
+	width: 25%;
+}
+th:hover{
+	color: rgb(196, 129, 166);
+	background: rgb(63, 66, 66);
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 75%;
+	
+}
+tr:hover{
+	color: rgb(255, 255, 255);
+	background: rgb(146, 245, 65);
+	cursor: pointer;
+	transition: 0.2s;
+	opacity: 75%;
+}
+s

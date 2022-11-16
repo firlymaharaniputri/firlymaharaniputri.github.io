@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BEST FRIEND</title>
+	<link rel="stylesheet" type="text/css" href="p03.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<center>
+	<h3>5 besti </h3>
+	<table border="1" style="width: 75%; height: 50%;">
+		<tr>
+			<th>No</th>
+			<th>Name</th>
+			<th>Address</th>
+			<th colspan="2">Action</th>
+		</tr>
+
+		<tr>
+			<td>1</td>
+			<td>windi</td>
+			<td>majalengka</td>
+			<td>Edit</a></td>
+			<td>Delet</a></td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>ica</td>
+			<td>kuningan</td>
+			<td>Edit</a></td>
+			<td>Delet</a></td>
+		</tr>
+
+		<tr>
+			<td>3</td>
+			<td>fany</td>
+			<td>kuningan</td>
+			<td>Edit</a></td>
+			<td>Delet</a></td>
+		</tr>
+
+		<tr>
+			<td>4</td>
+			<td>aul</td>
+			<td>kuningan</td>
+			<td>Edit</a></td>
+			<td>Delet</a></td>
+		</tr>
+
+		<tr>
+			<td>5</td>
+			<td>andin</td>
+			<td>kuningan</td>
+			<td>>Edit</a></td>
+			<td>Delet</a></td>
+		</tr>
+	</center>		
+	</table>
+	<table class="tabels" border="1">
+	<tr>
+		<td>BACK</td>
+	</tr>
+	</table>
+    <script type="text/javascript">
+            
+        $(document).ready(() => {
+            $("td").click(function (event) {
+            alert("Mau apa " +$(this).html() + "?");
+        });
+        
+        $("td").click(function (event) {
+        alert(" Tidak Semudah itu Besti !!! ");
+    });
+    $("th").click(function () {
+        confirm("Milih " + $(this).html()+ " Mau Ganti ?");
+        if (confirm) {
+            let name;
+            let prompt_name = prompt("Sok ayok ketik ");
+        }
+    });
+        $("th").click(function (event) {
+            alert("Tidak seemudah itu woy !");
+        });
+    });
+        
+    </script>
+
+</body>
+</html>
