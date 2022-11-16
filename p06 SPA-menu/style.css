@@ -1,0 +1,103 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: skyblue;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+span {
+    width: 30px;
+}
+}
+.wdh-napigasi{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.napigasi{
+    position: fixed;
+    font-family: 'Montserrat';
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    z-index: 99;
+}
+
+.napigasi .wdh-napigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.napigasi .active{
+    font-weight: bold;
+}
+
+.isi{
+    padding: 30px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 20px;
+    text-align: justify;
+}
+.napigasi ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.napigasi a{
+    color: black;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.napigasi a:hover{
+    color: black;
+}
+
+.logo{
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.sosmed{
+    text-decoration: none;
+}
+
+
+.instagram{
+    color: red;
+}
+
+.twitter{
+    color: blue;
+}
+.tengah{
+    text-align: center;
+}
+footer{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
