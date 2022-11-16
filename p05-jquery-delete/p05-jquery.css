@@ -1,0 +1,37 @@
+body {
+    background-color: skyblue;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .batur{
+    border: 5px black;
+    text-align: center;
+    padding: 17px;
+  }
+  
+  .batur:hover {
+    background-color: aquamarine;
+  }
+   
+  .sirah-tabel {
+    background-color: aqua;
+  }
+  
+  .tabel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .aksi-batur {
+    background-color: azure;
+  }
+  
+  .aksi-batur:hover {
+    background-color: aquamarine;
+  }
