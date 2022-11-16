@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: skyblue;
+}
+
+.wadah-tombol{
+    margin-left: 200px;
+    margin-right: 105px;
+}
+
+.tengah{
+    text-align: center;
+}
+
+.tombol{
+    background-color: deepskyblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+    }
+.tombol:hover{
+    background-color: lightblue;
+}
+
+.isi{
+    padding: 20px;
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 100px;
+    margin-right: 200px;
+    text-align: justify;
+}
